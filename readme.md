@@ -28,27 +28,28 @@ No specified language will create a .md file, or as specified in config
 ### listing projects
 
 `$ quick -list`
+
 `$ quick -l`
 
 This command will list the *projects* inside the QuickSpace
 
 ```projects loaded in the quick space
-
 1. quickspaceproject1
 2. quickspaceproject2
-3. quickspaceproject3```
+3. quickspaceproject3
+```
 
 ### viewing a project
 
 `$ quick -view [project-name]`
+
 `$ quick -v [project-name]`
 
 This will cd your terminal into the project, and print a list of the files in your project
 
 ```files loaded in the [project-name] project
-
 1. README.md
 2. LICENSE.md
 3. main.py
-
-~/QuickSpace/project-name $```
+~/QuickSpace/project-name $
+```
